@@ -1,0 +1,13 @@
+annoy
+clu
+jax
+jupyterlab
+ipywidgets
+numpy
+flax
+optax
+pandas
+tensorflow
+matplotlib
+tensorflow-datasets
+requests
