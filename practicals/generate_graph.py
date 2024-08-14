@@ -185,5 +185,5 @@ if __name__ == "__main__":
     ratings_df, movies_df = load_movielens_dataframes()
     graph_prep = GraphDataPreparation(ratings_df=ratings_df.copy(), movies_df=movies_df.copy(), split=0.4)
     graph = graph_prep.prepare_data()
-    torch.save(graph, "data.pt")
+    torch.save(graph, "practicals/data.pt")
     print("+++++++ DONE ++++++++++++")
